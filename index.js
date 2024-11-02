@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors({
-    origin: ['http://localhost:5173','http://localhost:5174', 'https://dantech-5a80a.web.app' ],
+    origin: ['http://localhost:5173','http://localhost:5174', 'https://dantech-5a80a.web.app', 'https://inf777.netlify.app' ],
     methods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
 }));
